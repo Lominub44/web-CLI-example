@@ -1,0 +1,25 @@
+body {
+    font-family: monospace;
+    background-color: black;
+    color: #00FF00; /* Hacker-Grün */
+    padding: 20px;
+}
+
+#output {
+    margin-bottom: 0; /* Unterer Strich entfernt */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-family: monospace;
+    background-color: black;
+    color: #00FF00; /* Hacker-Grün */
+    border: none;
+    border-bottom: 1px solid #00FF00; /* Hacker-Grün */
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-bottom: 1px solid #00FF00; /* Hacker-Grün */
+}
