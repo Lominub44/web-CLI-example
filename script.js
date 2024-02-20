@@ -1,17 +1,17 @@
 const output = document.getElementById('output');
 const input = document.getElementById('commandInput');
-const user = "hecker"; // Setze den Benutzernamen auf "hecker"
-input.value = `${user}$ `; // Setze den Benutzernamen in die Eingabezeile
+const user = "user"; // set the username to "user"
+input.value = `${user}$ `; // write the username to the command-prompt
 
 input.addEventListener('keyup', function(event) {
     event.preventDefault(); // Prevent the default behavior of the enter key
     if (event.key === 'Enter') {
         const command = input.value.trim().substring(user.length + 2); // Entferne den Benutzernamen und das Leerzeichen
-        if (command !== '') { // Überprüfe, ob ein Befehl eingegeben wurde
+        if (command !== '') { // check, if a prompt was typed
             output.innerHTML += `<p>${user}$ ${command}</p>`; // Display entered command
             executeCommand(command);
         }
-        input.value = `${user}$ `; // Setze den Benutzernamen zurück
+        input.value = `${user}$ `; // reset the username
     }
 });
 
@@ -125,7 +125,7 @@ function showRandomNumber() {
 
 function getWeather(city) {
     // Implement logic to fetch weather information from an API
-    // This is just a placeholder
+    // This is just a funny placeholder
     output.innerHTML += `<p>Weather information for ${city}: Sunny</p>`;
 }
 

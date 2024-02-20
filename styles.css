@@ -1,12 +1,8 @@
 body {
     font-family: monospace;
     background-color: black;
-    color: #00FF00; /* Hacker-Grün */
+    color: #00FF00; /* Hacker-green */
     padding: 20px;
-}
-
-#output {
-    margin-bottom: 0; /* Unterer Strich entfernt */
 }
 
 input[type="text"] {
@@ -14,12 +10,12 @@ input[type="text"] {
     padding: 10px;
     font-family: monospace;
     background-color: black;
-    color: #00FF00; /* Hacker-Grün */
+    color: #00FF00; /* Hacker-green */
     border: none;
-    border-bottom: 1px solid #00FF00; /* Hacker-Grün */
+    border-bottom: 1px solid #00FF00; /* Hacker-green */
     outline: none;
 }
 
 input[type="text"]:focus {
-    border-bottom: 1px solid #00FF00; /* Hacker-Grün */
+    border-bottom: 1px solid #00FF00; /* Hacker-green */
 }
