@@ -92,7 +92,7 @@ function showHelp() {
             <li>random - Generate a random number</li>
             <li>weather [city] - Display weather information for the specified city</li>
             <li>timer [seconds] - Start a timer for the specified number of seconds</li>
-	    <li>web [url] - Easiely Create a Iframe you can use everywhere</li>
+	    <li>web [url] - Create a web-display in your CLI</li>
         </ul>
     `;
 }
